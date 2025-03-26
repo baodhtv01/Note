@@ -52,7 +52,7 @@
 
 ## 6. Truy cập File Ubuntu WSL từ Windows
 
--   Sử dụng lệnh sau để map ổ đĩa WSL vào Windows:
+-   Sử dụng lệnh sau để map ổ đĩa WSL vào Windows (Lưu ý chạy trong cmd windows)
 
     ```sh
     net use Z: \\wsl$\Ubuntu-{version}
