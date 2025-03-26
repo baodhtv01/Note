@@ -96,7 +96,7 @@
 
     -   Sau đó, cập nhật lại bằng PAT mới bằng cách chạy lại lệnh `git pull` và nhập PAT mới.
 
-## 8. Xử lý File `artisan` và Chạy Docker Compose từ Windows
+## 8. Xử lý File `artisan` và Chạy Docker Compose từ Ubuntu
 
 -   **Xử lý file `artisan` bị thay đổi khi commit:**
 
@@ -115,18 +115,15 @@
         -   `git config core.fileMode false`: Bỏ qua việc kiểm tra quyền file.
         -   `git status`: Kiểm tra lại trạng thái các file.
 
--   **Chạy Docker Compose từ Windows:**
+-   **Chạy Docker Compose từ Ubuntu:**
 
-    -   Để chạy Docker Compose trực tiếp từ Windows, hãy thực hiện các bước sau:
-        1.  Mở Command Prompt hoặc PowerShell.
-        2.  Di chuyển đến thư mục `erp/back-end`:
-
+        1.phân quyền và cd vào backend 
             ```sh
-            cd path/to/erp/back-end
+            sudo chmod -R 777 erp
+            cd erp/back-end
             ```
-
-            (Thay `path/to/erp` bằng đường dẫn thực tế đến thư mục `erp` của bạn)
-        3.  Chạy lệnh sau để khởi động Docker Compose:
+        
+        2.  Chạy lệnh sau để khởi động Docker Compose:
 
             ```sh
             docker compose up -d --build
