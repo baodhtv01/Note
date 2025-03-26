@@ -38,7 +38,7 @@
 -   **Node.js:**
 
     ```sh
-    curl -fsSL [https://deb.nodesource.com/setup_lts.x](https://deb.nodesource.com/setup_lts.x) | sudo -E bash -
+    curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
     sudo apt install -y nodejs
     ```
 
@@ -73,7 +73,7 @@
 -   **Clone repository:**
 
     ```sh
-    git clone [https://github.com/thk-vn/erp.git](https://github.com/thk-vn/erp.git)
+    git clone https://github.com/thk-vn/erp.git
     ```
 
     -   Nhập username và sau đó nhập PAT khi được yêu cầu.
@@ -91,7 +91,7 @@
     -   Kiểm tra xem token còn hạn không. Nếu hết hạn, sử dụng lệnh sau để xóa credential:
 
         ```sh
-        git credential reject [https://github.com](https://github.com)
+        git credential reject [https://github.com]
         ```
 
     -   Sau đó, cập nhật lại bằng PAT mới bằng cách chạy lại lệnh `git pull` và nhập PAT mới.
