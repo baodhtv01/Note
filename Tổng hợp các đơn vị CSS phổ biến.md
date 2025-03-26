@@ -76,5 +76,3 @@ Tài liệu này tổng hợp các đơn vị đo lường phổ biến trong CS
 * `rem` thường được ưa chuộng hơn `em` trong các thiết kế phức tạp.
 * Các đơn vị viewport (`vw`, `vh`, `vmin`, `vmax`, `dvh`, `svh`, `lvh`) rất hữu ích cho việc tạo các thiết kế đáp ứng.
 * Các đơn vị tuyệt đối thường được sử dụng cho các trường hợp kích thước phần tử được cố định.
-
-Hy vọng tài liệu này sẽ giúp bạn hiểu rõ hơn về các đơn vị CSS.
