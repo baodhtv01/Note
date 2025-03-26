@@ -1,4 +1,4 @@
-# Hướng Dẫn Cài Đặt WSL DOCKER cho ERP
+# Hướng Dẫn Cài Đặt WSL & Docker Cho ERP
 
 ## 1. Cài đặt Docker Desktop
 
