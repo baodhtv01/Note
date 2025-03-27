@@ -118,14 +118,13 @@
 -   **Chạy Docker Compose từ Ubuntu:**
 
     1.phân quyền và cd vào backend 
-        ```sh
-            sudo chmod -R 777 erp
-            cd erp/back-end
-        ```
-    
+     ```sh
+    sudo chmod -R 777 erp
+    ```
     2.  Chạy lệnh sau để khởi động Docker Compose:
 
         ```sh
+            cd erp/back-end
             docker compose up -d --build
         ```
 
