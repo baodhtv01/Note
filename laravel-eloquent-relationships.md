@@ -27,7 +27,7 @@
 
     ```php
     $user = User::with('posts')->first(); // trả về App\Models\User
-    // $postsCount = $user->whenLoaded('posts', fn($posts) => $posts->count(), 0); // không gọi được vì whenLoaded là phương thức của JsonResource
+    $postsCount = $user->whenLoaded('posts', fn($posts) => $posts->count(), 0); // không gọi được vì whenLoaded là phương thức của JsonResource
     $postsCount = $user->relationLoaded('posts') ? $user->posts->count() : 0;
     ```
 
