@@ -4,13 +4,6 @@
 
 Playwright là một framework mã nguồn mở được phát triển bởi Microsoft để hỗ trợ testing và automation cho các ứng dụng web hiện đại. Nó cung cấp một API mạnh mẽ và dễ sử dụng cho việc tự động hóa trên nhiều trình duyệt như Chromium, Firefox, và WebKit, giúp các nhà phát triển kiểm tra ứng dụng của mình một cách đáng tin cậy và hiệu quả.
 
-## Mục lục
-
-- Giới thiệu
-- Cấu hình chi tiết
-- Các hàm/API chính
-- Tài liệu tham khảo
-
 ## Giới thiệu
 
 Playwright là một framework mã nguồn mở được phát triển bởi Microsoft, được thiết kế để hỗ trợ kiểm thử và tự động hóa các ứng dụng web hiện đại. Nó cung cấp một API mạnh mẽ, dễ sử dụng để tương tác với các trình duyệt như Chromium (Chrome, Edge), Firefox, và WebKit (Safari). Playwright giúp các nhà phát triển kiểm tra ứng dụng một cách đáng tin cậy, nhanh chóng và hiệu quả trên nhiều nền tảng và trình duyệt.
@@ -31,7 +24,6 @@ Playwright sử dụng file `playwright.config.js` hoặc `playwright.config.ts`
 
 | Tùy chọn | Mô tả |
 | --- | --- |
-| `forbidOnly` | Ngăn chặn chạy các test với `test.only` trên CI, hữu ích để tránh bỏ sót test. |
 | `fullyParallel` | Chạy tất cả các test song song, tối ưu hóa thời gian thực thi. |
 | `projects` | Cấu hình nhiều dự án kiểm thử cho các trình duyệt hoặc thiết bị khác nhau. |
 | `reporter` | Định dạng báo cáo kết quả (ví dụ: `html`, `json`, `list`). |
@@ -272,7 +264,4 @@ Playwright còn cung cấp nhiều lớp khác như `BrowserContext`, `Frame`, `
 
 ## Tài liệu tham khảo
 
-- Tài liệu chính thức của Playwright
-- Kho GitHub của Playwright
-- Tham chiếu API của Playwright
-- Cấu hình kiểm thử Playwright
+- Tài liệu chính thức của Playwright https://playwright.dev/docs/test-configuration
